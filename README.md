@@ -79,8 +79,7 @@ Desenvolvido com Nuxt, o aplicativo é dividido entre o servidor (`./server`) e 
 - Simulação de rotas baseada em dados reais.
 
 ### 4. **Vídeo de Apresentação**
-Veja o conceito completo do projeto no vídeo de apresentação disponível na pasta:
-`videos/apresentacao.mp4`
+Veja o conceito completo do projeto no vídeo de apresentação disponível no arquivo: [public/apresentacao_video.mp4](public/apresentacao_video.mp4)  
 
 ---
 
