@@ -6,15 +6,16 @@
 
 O FETI é um sistema integrado de Internet das Coisas (IoT), composto por dispositivos inteligentes, dashboards analíticos e um aplicativo web, desenvolvido para monitorar e otimizar a experiência em transportes públicos. 
 
-## Integrantes do Grupo
-
-
 O projeto aborda questões como:
 - Superlotação
 - Desconforto térmico
 - Falta de planejamento em rotas
 
 Ele une tecnologias de IoT e desenvolvimento web para melhorar a qualidade dos serviços oferecidos a passageiros e empresas de transporte público.
+
+## Integrantes do Grupo
+- Igor Gomes Vieira
+- Joseph Patrick R. A. Trupel
 
 ## Links e Arquivos
 
