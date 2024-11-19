@@ -17,6 +17,24 @@ O projeto aborda questões como:
 
 Ele une tecnologias de IoT e desenvolvimento web para melhorar a qualidade dos serviços oferecidos a passageiros e empresas de transporte público.
 
+## Links e Arquivos
+
+### Arquivos do Repositório
+
+- **Roteiro de Extensão**: [public/roteiro_extensao.pdf](public/roteiro_extensao.pdf)
+- **Apresentação em PDF**: [public/apresentacao.pdf](public/apresentacao.pdf)
+- **Apresentação em Vídeo**:  
+  - [Vídeo completo](public/apresentacao_video.mp4)  
+  - ![Capa do vídeo](public/apresentacao_video_cover.png)
+
+### Links Externos
+
+- **Dashboard Público**: [Acessar o Dashboard no Beebotte](https://beebotte.com/dash/08b66b10-9e36-11ef-9187-737958943ad4?shareid=shareid_caECyPJoSIe6hLtb)
+- **Projeto Wokwi**: [Acessar o Projeto no Wokwi](https://wokwi.com/projects/413996323601280001)
+- **Repositório do Código IoT no GitHub**: [./wokwi no GitHub](https://github.com/josephpatrick1/feti/tree/main/wokwi)
+- **Demo do App** (a ser definido): [Aplicativo FETI](https://feti.vercel.app/)
+
+
 ## Como Iniciar o Projeto Nuxt
 
 1. Instale as dependências:
@@ -33,7 +51,9 @@ Ele une tecnologias de IoT e desenvolvimento web para melhorar a qualidade dos s
 ## Estrutura do Projeto
 
 ### 1. **Dispositivo IoT**
-Desenvolvido em MicroPython, é composto por sensores e atuadores para monitorar temperatura, lotação e localização de veículos em tempo real. O código está disponível na pasta `./wokwi`.
+Desenvolvido em MicroPython, é composto por sensores e atuadores para monitorar temperatura, lotação e localização de veículos em tempo real. O código está disponível na pasta `wokwi`.
+[**Acessar Projeto Wokwi**](https://wokwi.com/projects/413996323601280001)
+
 
 **Componentes principais:**
 - ESP32 com WiFi
@@ -53,6 +73,8 @@ Desenvolvido com Nuxt, o aplicativo é dividido entre o servidor (`./server`) e 
 - Acompanhem a localização dos veículos.
 - Verifiquem informações sobre temperatura e ocupação.
 - Planejem viagens com maior comodidade.
+[**Acessar Visualização do APP**](https://beebotte.com/dash/08b66b10-9e36-11ef-9187-737958943ad4?shareid=shareid_caECyPJoSIe6hLtb)
+
 
 #### Funcionalidades principais:
 - Integração com Beebotte via API.
