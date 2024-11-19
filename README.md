@@ -1,75 +1,102 @@
-# Nuxt Minimal Starter
+Aqui está o README detalhado para o projeto FETI:
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+---
 
-## Setup
+# FETI - Fiscalizador Eletrônico Inteligente para Transportes Públicos
 
-Make sure to install dependencies:
+![FETI Logo](public/logo.svg)
 
-```bash
-# npm
-npm install
+## Sobre o Projeto
 
-# pnpm
-pnpm install
+O FETI é um sistema integrado de Internet das Coisas (IoT), composto por dispositivos inteligentes, dashboards analíticos e um aplicativo web, desenvolvido para monitorar e otimizar a experiência em transportes públicos. 
 
-# yarn
-yarn install
+O projeto aborda questões como:
+- Superlotação
+- Desconforto térmico
+- Falta de planejamento em rotas
 
-# bun
-bun install
-```
+Ele une tecnologias de IoT e desenvolvimento web para melhorar a qualidade dos serviços oferecidos a passageiros e empresas de transporte público.
 
-## Development Server
+## Como Iniciar o Projeto Nuxt
 
-Start the development server on `http://localhost:3000`:
+1. Instale as dependências:
+   ```bash
+   yarn install
+   ```
+2. Inicie o servidor de desenvolvimento:
+   ```bash
+   yarn dev
+   ```
 
-```bash
-# npm
-npm run dev
+---
 
-# pnpm
-pnpm dev
+## Estrutura do Projeto
 
-# yarn
-yarn dev
+### 1. **Dispositivo IoT**
+Desenvolvido em MicroPython, é composto por sensores e atuadores para monitorar temperatura, lotação e localização de veículos em tempo real. O código está disponível na pasta `./wokwi`.
 
-# bun
-bun run dev
-```
+**Componentes principais:**
+- ESP32 com WiFi
+- Sensor de Temperatura e Umidade (DHT22)
+- Módulo GPS (U-blox NEO-6M)
+- Sensores de movimento (PIR)
+- Display LCD (I2C)
 
-## Production
+### 2. **Dashboard Inteligente**
+Visualize dados em tempo real por meio de um painel analítico na plataforma Beebotte:
+[**Acessar Dashboard**](https://beebotte.com/dash/08b66b10-9e36-11ef-9187-737958943ad4?shareid=shareid_caECyPJoSIe6hLtb)
 
-Build the application for production:
+Este painel permite acompanhar métricas essenciais, como temperatura, lotação e rotas, facilitando a tomada de decisões rápidas e a otimização de recursos.
 
-```bash
-# npm
-npm run build
+### 3. **Aplicativo Web**
+Desenvolvido com Nuxt, o aplicativo é dividido entre o servidor (`./server`) e o frontend. Ele permite que passageiros e operadores:
+- Acompanhem a localização dos veículos.
+- Verifiquem informações sobre temperatura e ocupação.
+- Planejem viagens com maior comodidade.
 
-# pnpm
-pnpm build
+#### Funcionalidades principais:
+- Integração com Beebotte via API.
+- Simulação de rotas baseada em dados reais.
 
-# yarn
-yarn build
+### 4. **Vídeo de Apresentação**
+Veja o conceito completo do projeto no vídeo de apresentação disponível na pasta:
+`videos/apresentacao.mp4`
 
-# bun
-bun run build
-```
+---
 
-Locally preview production build:
+## Etapas do Desenvolvimento
 
-```bash
-# npm
-npm run preview
+1. **Planejamento Inicial:**
+   - Diagnóstico de problemas em transportes públicos, incluindo desconforto térmico e superlotação.
 
-# pnpm
-pnpm preview
+2. **Desenvolvimento do Dispositivo IoT:**
+   - Montagem dos circuitos e programação em MicroPython para integração com sensores.
 
-# yarn
-yarn preview
+3. **Integração com Beebotte:**
+   - Configuração de canais para monitoramento de dados em tempo real.
 
-# bun
-bun run preview
-```
+4. **Criação do Dashboard:**
+   - Configuração de gráficos e métricas visuais no Beebotte para facilitar a análise dos dados coletados.
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+5. **Desenvolvimento do Aplicativo:**
+   - Interface intuitiva que conecta usuários ao sistema de monitoramento.
+
+6. **Testes e Validação:**
+   - Simulação de viagens com base em dados reais e ajustes finais.
+
+---
+
+## Benefícios do Sistema
+
+- **Para passageiros:** Dados acessíveis em tempo real sobre lotação e temperatura, proporcionando viagens mais confortáveis.
+- **Para operadores:** Informações detalhadas para otimizar rotas e reduzir custos operacionais.
+- **Para órgãos públicos:** Ferramentas para monitorar e fiscalizar a qualidade do transporte público.
+
+---
+
+## Recursos Adicionais
+Para informações mais detalhadas sobre as etapas, consulte o **Roteiro de Extensão** incluso nos arquivos do projeto.
+
+---
+
+Se tiver dúvidas ou sugestões, entre em contato com a equipe de desenvolvimento. Contribua com a melhoria do transporte público através da tecnologia!
