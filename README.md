@@ -1,7 +1,3 @@
-Aqui está o README detalhado para o projeto FETI:
-
----
-
 # FETI - Fiscalizador Eletrônico Inteligente para Transportes Públicos
 
 ![FETI Logo](public/logo.svg)
@@ -9,6 +5,9 @@ Aqui está o README detalhado para o projeto FETI:
 ## Sobre o Projeto
 
 O FETI é um sistema integrado de Internet das Coisas (IoT), composto por dispositivos inteligentes, dashboards analíticos e um aplicativo web, desenvolvido para monitorar e otimizar a experiência em transportes públicos. 
+
+## Integrantes do Grupo
+
 
 O projeto aborda questões como:
 - Superlotação
@@ -23,9 +22,7 @@ Ele une tecnologias de IoT e desenvolvimento web para melhorar a qualidade dos s
 
 - **Roteiro de Extensão**: [public/roteiro_extensao.pdf](public/roteiro_extensao.pdf)
 - **Apresentação em PDF**: [public/apresentacao.pdf](public/apresentacao.pdf)
-- **Apresentação em Vídeo**:  
-  - [Vídeo completo](public/apresentacao_video.mp4)  
-  - ![Capa do vídeo](public/apresentacao_video_cover.png)
+- **Apresentação em Vídeo**: [public/apresentacao_video.mp4](public/apresentacao_video.mp4)  
 
 ### Links Externos
 
